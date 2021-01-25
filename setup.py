@@ -20,6 +20,14 @@ setuptools.setup(
 
     install_requires=[
         "aws-cdk.core==1.85.0",
+        "aws-cdk.aws-ecr==1.85.0",
+        "aws-cdk.aws-ec2==1.85.0",
+        "aws-cdk.aws-ecs==1.85.0",
+        "aws-cdk.aws-ecs-patterns==1.85.0",
+        "aws-cdk.aws-elasticsearch==1.85.0",
+        "aws-cdk.aws-elasticloadbalancingv2==1.85.0",
+        "aws-cdk.aws-elasticloadbalancingv2-targets==1.85.0",
+        "aws-cdk.aws-kinesisfirehose==1.85.0",
     ],
 
     python_requires=">=3.6",
